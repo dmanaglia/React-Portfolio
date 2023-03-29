@@ -46,3 +46,24 @@ footer {
 #ghLogo:hover {
     filter: invert(1000%) brightness(100%) contrast(1000%);
 }
+
+#avatar-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.myOverlay {
+    opacity: 0;
+}
+
+.myOverlay:hover {
+    background-color: aliceblue;
+    color: black;
+    opacity: 0.6;
+}
+
+.project-ghicon {
+    height: 50px;
+    width: 50px;
+}

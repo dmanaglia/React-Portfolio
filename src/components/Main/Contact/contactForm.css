@@ -1,0 +1,23 @@
+.form input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+label {
+    color: var(--deepBlue);
+}
+
+#myTextArea {
+    height: 200px;
+}
+  
+.errorMessage {
+    color: red;
+    font-size: small;
+}
+
+.confirmMessage {
+    color: green;
+}

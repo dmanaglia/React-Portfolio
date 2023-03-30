@@ -1,0 +1,17 @@
+header h1, 
+header h3 {
+    height: min-content;
+    font-weight: bolder;
+}
+
+header h3:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 893px) {
+    nav {
+        border-top-color: var(--deepBlue);
+        border-top-width: 5px;
+        border-top-style: solid;
+    }
+}

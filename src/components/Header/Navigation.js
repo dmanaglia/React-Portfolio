@@ -10,7 +10,7 @@ function Navigation({setPageNum}) {
     }
 
     return (
-    <nav className="d-flex">
+    <nav className="d-flex justify-content-center flex-wrap">
         <h3 className="m-3 pageLink" pagenum="1" onClick={updatePageNum}>
             About Me
         </h3>

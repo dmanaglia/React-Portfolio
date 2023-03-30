@@ -1,0 +1,67 @@
+.project-title {
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.project-title:hover {
+    color: var(--black);
+    font-weight: bolder;
+}
+
+.project-logo {
+    margin: 0;
+    height: 50px;
+    width: 100px;
+    filter: invert(1) brightness(.5);
+}
+
+.project-logo:hover {
+    filter: invert(0);
+}
+
+.project-info{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myOverlay {
+    opacity: 0;
+}
+
+.myOverlay:hover {
+    background-color: var(--white);
+    color: var(--deepBlue);
+    opacity: 0.8;
+}
+
+.customCard {
+    width: 41vw;
+    margin-bottom: 2rem;
+}
+
+.card-img {
+    height: 275px;
+}
+
+.responsiveFlex {
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1000px) {
+    .customCard {
+      width: 65vw;
+    }
+    .responsiveFlex {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .customCard {
+        width: 100vw;
+    }
+    .responsiveFlex {
+        justify-content: center;
+    }
+}

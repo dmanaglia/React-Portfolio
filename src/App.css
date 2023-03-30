@@ -1,21 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 :root{
     --deepBlue: #1a2a54;
     --white: white;
+    --offWhite: antiquewhite;
+    --black: black;
+    --gray: gray;
+}
+
+html {
+    background-color: var(--deepBlue);
+}
+
+body {
+    font-family: 'Josefin Sans';
 }
 
 header {
     min-height: 20vh;
     background-image: url('https://cdn.pixabay.com/photo/2016/05/12/23/10/banner-1388939_1280.jpg');
-}
-
-header h3:hover {
-    cursor: pointer;
-}
-
-header h1, 
-header h3 {
-    height: min-content;
-    font-weight: bolder;
 }
 
 main, footer{
@@ -29,41 +32,4 @@ main {
 
 footer {
     min-height: 20vh;
-}
-
-.logo {
-    margin: 0 15px 0 15px;
-    height: 50px;
-    width: 100px;
-    filter: grayscale(1);
-}
-
-.logo:hover {
-    cursor: pointer;
-    filter: grayscale(0);
-}
-
-#ghLogo:hover {
-    filter: invert(1000%) brightness(100%) contrast(1000%);
-}
-
-#avatar-img {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-}
-
-.myOverlay {
-    opacity: 0;
-}
-
-.myOverlay:hover {
-    background-color: aliceblue;
-    color: black;
-    opacity: 0.6;
-}
-
-.project-ghicon {
-    height: 50px;
-    width: 50px;
 }

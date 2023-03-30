@@ -1,0 +1,17 @@
+.pageHeader{
+    margin-bottom: 1rem;
+}
+
+.mainPage {
+    padding: 75px;
+}
+
+@media only screen and (max-width: 425px) {
+    .pageHeader {
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .mainPage {
+        padding: 0;
+    }
+}

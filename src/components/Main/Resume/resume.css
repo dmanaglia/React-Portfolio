@@ -4,6 +4,6 @@ p a {
 }
 
 p a:hover {
-    color: var(--offWhite);
+    color: var(--white);
     font-weight: bolder;
 }

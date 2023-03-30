@@ -8,6 +8,10 @@ header h3:hover {
     cursor: pointer;
 }
 
+header nav :nth-child(1){
+    color: var(--white);
+}
+
 @media only screen and (max-width: 893px) {
     nav {
         border-top-color: var(--deepBlue);

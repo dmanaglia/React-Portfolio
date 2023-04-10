@@ -1,3 +1,4 @@
+import quizApp from '../../../assets/quizApp.webp';
 import movieImg from '../../../assets/movie.jpeg';
 import musicImg from '../../../assets/music-notes.avif';
 import brickImg from '../../../assets/brick.jpeg';
@@ -9,6 +10,13 @@ import './portfolio.css';
 
 function Portfolio(){
     const myProjects = [
+        {
+            name: "JADA Quiz Application",
+            description: "Full Stack",
+            liveLink: "https://jada-quiz-app.herokuapp.com/",
+            gitHubLink: "https://github.com/Awele1111/JADA-Quiz-App",
+            img: quizApp
+        },
         {
             name: "Movie Media Mania",
             description: "Full Stack",

@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.781dd4d8.css",
-    "main.js": "/React-Portfolio/static/js/main.027697c9.js",
+    "main.js": "/React-Portfolio/static/js/main.502f4cb8.js",
     "static/media/brick.jpeg": "/React-Portfolio/static/media/brick.e249637fba54fff7635d.jpeg",
     "static/media/code.jpeg": "/React-Portfolio/static/media/code.025a979a5ed9176b37c1.jpeg",
+    "static/media/quizApp.webp": "/React-Portfolio/static/media/quizApp.2a8b6655abaa7592dad5.webp",
     "static/media/Resume.pdf": "/React-Portfolio/static/media/Resume.f91a6b0e86bf88d447ce.pdf",
     "static/media/waterfall.jpeg": "/React-Portfolio/static/media/waterfall.f3c050ccfd9ae011217b.jpeg",
     "static/media/chalk.jpeg": "/React-Portfolio/static/media/chalk.64e68c9b9a75c0a0a2d1.jpeg",
@@ -14,10 +15,10 @@
     "static/media/LinkedIn-logo.svg": "/React-Portfolio/static/media/LinkedIn-logo.93683c2cc3d5ca884dcf6c3525104a48.svg",
     "static/media/StackOverflow-logo.svg": "/React-Portfolio/static/media/StackOverflow-logo.c68ccdaec5b20fc6b43cd93f33515dd6.svg",
     "main.781dd4d8.css.map": "/React-Portfolio/static/css/main.781dd4d8.css.map",
-    "main.027697c9.js.map": "/React-Portfolio/static/js/main.027697c9.js.map"
+    "main.502f4cb8.js.map": "/React-Portfolio/static/js/main.502f4cb8.js.map"
   },
   "entrypoints": [
     "static/css/main.781dd4d8.css",
-    "static/js/main.027697c9.js"
+    "static/js/main.502f4cb8.js"
   ]
 }
